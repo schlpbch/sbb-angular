@@ -42,6 +42,7 @@ $notificationMessageMarginRight: 24;
   }
 
   .sbb-notification-content {
+    word-break: break-word;
     margin-left: pxToEm($notificationMessageMarginTopBottomLeft);
 
     .sbb-notification-content-title {

@@ -82,6 +82,7 @@ $notificationVerticalMargin: 12;
   }
 
   .sbb-notification-content {
+    word-break: break-word;
     margin-left: toPx($notificationMessageMarginLeft);
     margin-right: toPx($notificationMessageMarginRight);
   }
