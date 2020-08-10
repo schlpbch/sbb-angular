@@ -22,9 +22,11 @@ ng_module(
         "//src/angular-icons/basic",
         "//src/angular-icons/navigation",
         "//src/angular-icons/status",
+        "@npm//@angular/animations",
         "@npm//@angular/cdk",
         "@npm//@angular/common",
         "@npm//@angular/core",
+        "@npm//rxjs",
     ],
 )
 
@@ -44,9 +46,12 @@ ng_test_library(
     ),
     deps = [
         ":notification",
+        "//src/angular-core/icon-directive",
+        "//src/angular-icons",
         "//src/angular-icons/basic",
         "//src/angular-icons/navigation",
         "//src/angular-icons/status",
+        "@npm//@angular/cdk",
         "@npm//@angular/common",
         "@npm//@angular/forms",
         "@npm//@angular/platform-browser",
